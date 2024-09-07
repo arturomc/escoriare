@@ -1,0 +1,35 @@
+{
+  "name": "aws-promo-check",
+  "version": "1.0.0",
+  "description": "A web scraper following a tutorial to scrape aws",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --detectOpenHandles --coverage"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturomc/escoriare.git"
+  },
+  "keywords": [
+    "scrap",
+    "scrapper"
+  ],
+  "author": "arturomc <4rturomc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arturomc/escoriare/issues"
+  },
+  "homepage": "https://github.com/arturomc/escoriare#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "supertest": "^7.0.0"
+  }
+}
